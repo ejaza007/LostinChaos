@@ -1,0 +1,33 @@
+// Coordinates of sprites in sprite sheet 
+// Total sprites: 6
+// i = row, j = col, (i, j)
+// (0, 0)
+rects[0].x = 0;
+rects[0].y = 0;
+rects[0].w = 35;
+rects[0].h = 57;
+// (0, 1)
+rects[1].x = 35;
+rects[1].y = 0;
+rects[1].w = 35;
+rects[1].h = 57;
+// (0, 2)
+rects[2].x = 70;
+rects[2].y = 0;
+rects[2].w = 35;
+rects[2].h = 57;
+// (0, 3)
+rects[3].x = 105;
+rects[3].y = 0;
+rects[3].w = 35;
+rects[3].h = 57;
+// (0, 4)
+rects[4].x = 140;
+rects[4].y = 0;
+rects[4].w = 35;
+rects[4].h = 57;
+// (0, 5)
+rects[5].x = 175;
+rects[5].y = 0;
+rects[5].w = 35;
+rects[5].h = 57;

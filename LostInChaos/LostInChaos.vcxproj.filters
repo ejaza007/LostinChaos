@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{2d1a743e-cf28-4250-91ca-b7ef682b5786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{6bd42a3a-975c-4d96-b11f-b45c1de95870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Traps">
+      <UniqueIdentifier>{ade614a2-cb16-4e2b-8f3f-4e4ca3748547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Traps">
+      <UniqueIdentifier>{bec0521f-2b1f-407e-bffd-c14cc798286a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bullets">
+      <UniqueIdentifier>{df288eed-97e9-4a6f-b924-026e09ab2a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bullets">
+      <UniqueIdentifier>{d5fe04ac-f497-4ca3-a95f-1d19c8f77bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{c2d802e5-3e27-4287-9a90-c6b1fd1c9090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{72e81fab-c4ee-49c0-9b52-2a10a23eee51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{d49d039f-2d0f-411b-a0b8-177ea0c98f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{90c99b64-e526-4400-89eb-3ccc795a8d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemy">
+      <UniqueIdentifier>{b74f69e4-a3d5-4cf5-9b6d-1523a4872382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map">
+      <UniqueIdentifier>{de7d9c46-802c-4059-94f7-4f214ffb47bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{29897c15-45c5-4b2f-b91f-af6d7ec29fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enemy">
+      <UniqueIdentifier>{3004a038-5de5-4b17-9956-a2a2236db851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{3187937c-266c-47c0-9bca-19c975bd8214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{029f02ce-e816-4976-a454-6aa039f41311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particles">
+      <UniqueIdentifier>{0835b49b-b191-4ca6-ac0f-b6fef0b22db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particles">
+      <UniqueIdentifier>{2cff0ee8-090a-4450-96a9-e67901d73fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{01328586-9997-43f7-a8b4-5d9fec00abfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{7a848a1a-647e-481d-9e59-771cc872700f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Timer.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Trap.h">
+      <Filter>Header Files\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Astar.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bullet.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cannon.h">
+      <Filter>Header Files\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MissileLauncher.h">
+      <Filter>Header Files\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MachineGun.h">
+      <Filter>Header Files\Traps</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GlobalVars.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Constants.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\helper.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Renderer.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object.h">
+      <Filter>Header Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tile.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TrapHUD.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TrapIcon.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemy.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Soldier.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Zombie.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hitman.h">
+      <Filter>Header Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Button.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Font.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuManager.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Blood.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Explosion.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Particle.h">
+      <Filter>Header Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AllyBullet.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AllyCannonBullet.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AllyMGBullet.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AllyMissile.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnemyBullet.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnemyCannonBullet.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnemyMGBullet.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnemyMissile.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoundManager.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timer.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Trap.cpp">
+      <Filter>Source Files\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Astar.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bullet.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tile.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helper.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GlobalVars.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrapHUD.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrapIcon.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemy.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Soldier.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Zombie.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hitman.cpp">
+      <Filter>Source Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Blood.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Explosion.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Font.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MenuManager.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MissileLauncher.cpp">
+      <Filter>Source Files\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cannon.cpp">
+      <Filter>Source Files\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MachineGun.cpp">
+      <Filter>Source Files\Traps</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AllyBullet.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AllyCannonBullet.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AllyMGBullet.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AllyMissile.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyBullet.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyCannonBullet.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyMGBullet.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyMissile.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundManager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
